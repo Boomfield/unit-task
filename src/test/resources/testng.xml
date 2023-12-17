@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PenTestSuite">
+    <test name="PenTests">
+        <classes>
+            <class name="tests.penTests.PenTestDoSomethingElse"/>
+            <class name="tests.penTests.PenTestGetColor"/>
+            <class name="tests.penTests.PenTestIsWork"/>
+            <class name="tests.penTests.PenTestWrite"/>
+        </classes>
+    </test>
+</suite>
